@@ -1,0 +1,81 @@
+.SinglePage{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    .carousels{
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .container{
+        .single__wrapper{
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 0 50px;
+            height: 100%;
+            padding-top: 70px;
+            .single__img{
+                img{
+                    width: auto;
+                    height: 532px;
+                }
+            }
+            .single__title{
+                .date{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    .star{
+                        display: flex;
+                        align-items: center;
+                        gap: 0 5px;
+                        p.rate{
+                            font-weight: 400;
+                            font-size: 36px;
+                            line-height: 21px;
+                            margin-top: 15px;
+                            img{
+                                width: 48px;
+                                height: 48px;
+                            }
+                        }
+                    }
+                    .release{
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 21px;
+                        color: #fff;
+                    }
+                }
+                .genre{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    p{
+                        font-size: 20px;
+                        line-height: 21px;
+                        font-weight: 400;
+                    }
+                }
+                p{
+                    color: #fff;
+                }
+                h2{
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 77px;
+                    color: #fff;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #fff;
+                    max-width: 474px;
+                }
+            }
+        }
+    }
+}
